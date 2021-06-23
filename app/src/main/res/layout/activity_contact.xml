@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="10dp"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_title"
+        android:textSize="24sp"
+        android:background="@color/gray_100"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:textAlignment="center"
+        android:textColor="@color/colorText1"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_name"
+        android:textSize="20sp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textColor="@color/colorText1"/>
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_phone"
+        android:textSize="20sp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:textColor="@color/colorText1"/>
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:inputType="phone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_email"
+        android:textSize="20sp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:textColor="@color/colorText1"/>
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="top|center"/>
+    <Button
+        android:id="@+id/btn_add_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_close"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:backgroundTint="@color/gray_500"
+        android:layout_gravity="top|center"/>
+
+</GridLayout>

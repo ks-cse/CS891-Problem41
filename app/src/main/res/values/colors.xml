@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_200">#FFff6659</color>
+    <color name="red_500">#FFd32f2f</color>
+    <color name="red_700">#FF9a0007</color>
+
+    <color name="gray_100">#FFcccccc</color>
+    <color name="gray_200">#FF8e8e8e</color>
+    <color name="gray_500">#FF616161</color>
+    <color name="gray_700">#FF373737</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="celadon">#FFA0E8AF</color>
+    <color name="mint">#FF3AB795</color>
+    <color name="lavender">#FFD6E5E3</color>
+    <color name="pinetree">#FF233329</color>
+    <color name="combugreen">#FF32493A</color>
+
+    <color name="colorText1">#333333</color>
+    <color name="colorText2">#0277bd</color>
+    <color name="colorText3">#757575</color>
+</resources>

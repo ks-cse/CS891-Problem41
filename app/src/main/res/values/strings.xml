@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Address Book</string>
+    <string name="mnu_add">Add New Contact</string>
+    <string name="mnu_refresh">Refresh</string>
+    <string name="mnu_about">About</string>
+    <string name="mnu_close">EXIT</string>
+    <string name="add_title">Add New Contact</string>
+    <string name="edit_title">Edit Contact</string>
+    <string name="tv_name">Name:</string>
+    <string name="tv_phone">Phone:</string>
+    <string name="tv_email">E-mail:</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_close">CANCEL</string>
+    <string name="btn_del">DELETE CONTACT</string>
+
+    <string name="pick_task">Pick a Task for</string>
+    <string-array name="task_array">
+        <item>Make a Call</item>
+        <item>Send Email</item>
+        <item>Edit Contact</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>
